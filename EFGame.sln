@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFGame.Presentation", "EFGame.Presentation\EFGame.Presentation.csproj", "{9A13A188-596A-4C50-A3B8-44A0EFD69A42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFGame.Data", "EFGame.Data\EFGame.Data.csproj", "{E5C13C15-ECC7-4D99-9B67-7C99B2917644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFGame.Domain", "EFGame.Domain\EFGame.Domain.csproj", "{FC2A3CEA-3561-4167-997C-52CA1B56AFC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9A13A188-596A-4C50-A3B8-44A0EFD69A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A13A188-596A-4C50-A3B8-44A0EFD69A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A13A188-596A-4C50-A3B8-44A0EFD69A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C13C15-ECC7-4D99-9B67-7C99B2917644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C13C15-ECC7-4D99-9B67-7C99B2917644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C13C15-ECC7-4D99-9B67-7C99B2917644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C13C15-ECC7-4D99-9B67-7C99B2917644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2A3CEA-3561-4167-997C-52CA1B56AFC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2A3CEA-3561-4167-997C-52CA1B56AFC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2A3CEA-3561-4167-997C-52CA1B56AFC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2A3CEA-3561-4167-997C-52CA1B56AFC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
