@@ -50,6 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\MatchRepository.cs" />
+    <Compile Include="Repositories\MissionRepository.cs" />
+    <Compile Include="Repositories\PlayerRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EFGame.Data\EFGame.Data.csproj">
