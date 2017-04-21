@@ -96,8 +96,16 @@ namespace EFGame.Presentation
 
             private void PrintAllMatches()
             {
-                _matchRepository.GetAllMatches().ForEach(m => Console.WriteLine($"Id: {m.MatchId} Name: {m.Name}"));
-            }
+                    var allMatches = _matchRepository.GetAllMatches();
+                    foreach (var match in allMatches)
+                    {
+                        Console.WriteLine($"Id: {match.MatchId} Name: {match.Name}");
+                        foreach (var player in match.Players)
+                        {
+                            Console.WriteLine($"{player.Username} {player.Email}");
+                        }
+                    } 
+        }
 
             private int GenerateRandom()
             {

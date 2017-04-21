@@ -13,11 +13,9 @@ namespace EFGame.Domain.Repositories
         public MissionRepository()
         {
             _context = new GameBaseContext();
-            _matchRepository = new MatchRepository();
         }
 
         private readonly GameBaseContext _context;
-        private readonly MatchRepository _matchRepository;
 
         public void AddMission(Mission ms, string name)
         {
